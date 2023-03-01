@@ -209,6 +209,7 @@ figure {
 		text-transform: uppercase;
 		font-weight: bold;
 		font-family: $font-primary;
+		width: 210px;
 
 		.titulo_logo {
 			color: #E6A30E;
@@ -2709,9 +2710,13 @@ figure {
 	width: 25px;
 	height: 25px;
 	cursor: pointer;
-	text-decoration: none;
+	text-decoration: none; 
+	position: fixed;
+
+
 
 	&.active i {
+
 
 		&::before,
 		&::after {
@@ -2752,12 +2757,12 @@ figure {
 
 	&.fh5co-nav-white {
 		>i {
-			color: $brand-white;
-			background: $brand-black;
+			color: #E6A30E;
+			background: #E6A30E;
 
 			&::before,
 			&::after {
-				background: $brand-black;
+				background: #E6A30E;
 			}
 		}
 	}
@@ -2804,17 +2809,14 @@ figure {
 }
 
 .fh5co-nav-toggle {
-	position: absolute;
+	position: fixed;
 	right: 0px;
 	top: 10px;
-	// top: 100px;
-	// left: -100px;;
 	z-index: 21;
 	padding: 6px 0 0 0;
 	display: block;
 	margin: 0 auto;
 	display: none;
-	// background: #f86942;
 	height: 44px;
 	width: 44px;
 	z-index: 2001;

@@ -111,6 +111,7 @@ figure {
   text-transform: uppercase;
   font-weight: bold;
   font-family: "Montserrat", Arial, sans-serif;
+  width: 210px;
 }
 .fh5co-nav #fh5co-logo .titulo_logo {
   color: #E6A30E;
@@ -1815,6 +1816,7 @@ figure {
   height: 25px;
   cursor: pointer;
   text-decoration: none;
+  position: fixed;
 }
 .fh5co-nav-toggle.active i::before, .fh5co-nav-toggle.active i::after {
   background: #444;
@@ -1845,11 +1847,11 @@ figure {
   transition: all 0.2s ease-out;
 }
 .fh5co-nav-toggle.fh5co-nav-white > i {
-  color: #fff;
-  background: #000;
+  color: #E6A30E;
+  background: #E6A30E;
 }
 .fh5co-nav-toggle.fh5co-nav-white > i::before, .fh5co-nav-toggle.fh5co-nav-white > i::after {
-  background: #000;
+  background: #E6A30E;
 }
 
 .fh5co-nav-toggle i::before {
@@ -1893,7 +1895,7 @@ figure {
 }
 
 .fh5co-nav-toggle {
-  position: absolute;
+  position: fixed;
   right: 0px;
   top: 10px;
   z-index: 21;
