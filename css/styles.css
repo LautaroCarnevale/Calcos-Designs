@@ -834,7 +834,6 @@ figure {
   margin-top: 20px;
   flex-direction: column;
   margin-right: 100px;
-  padding: 150px;
 }
 .filter__productos .filters .texto__categorias-filter {
   font-family: "Open Sans", sans-serif;
@@ -1454,14 +1453,6 @@ figure {
   font-size: 18px;
   line-height: 1.5;
   color: #828282;
-}
-.fh5co-heading span {
-  display: block;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  font-size: 12px;
-  letter-spacing: 2px;
-  font-family: "Montserrat", Arial, sans-serif;
 }
 
 #fh5co-testimonial {

@@ -4,12 +4,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Shop &mdash; Free Website Template, Free HTML5 Template by gettemplates.co</title>
+	<title>Calcos Desings</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by gettemplates.co" />
-	<meta name="keywords"
-		content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
-	<meta name="author" content="gettemplates.co" />
+	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<meta name="author" content="" />
 
 
 
@@ -29,6 +28,8 @@
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@500&display=swap" rel="stylesheet">
 
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="../css/animate.css">
@@ -48,13 +49,25 @@
 	<link rel="stylesheet" href="../css/styles.css">
 
 	<!-- Modernizr JS -->
-	<script src="../js/modernizr-2.6.2.min.js"></script>
+	<script src="../../js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
-</head>
+	<style>
+		input::-webkit-outer-spin-button,
+		input::-webkit-inner-spin-button {
+			-webkit-appearance: none;
+			appearance: none;
+		}
+
+		input[type=number] {
+			-moz-appearance: textfield;
+			appearance: textfield;
+		}
+	</style>
+
 
 <body>
 
@@ -123,7 +136,6 @@
 			<div class="container">
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<span>COSAS INTERESANTES</span>
 						<h2>PRODUCTOS.</h2>
 						<p>¡Descubre nuestra increíble selección de calcomanías para personalizar y decorar lo que
 							quieras!</p>
@@ -149,53 +161,960 @@
 						<a class="a__nav-filtro" href="../tienda/productos/zapatillas.html">Zapatillas</a>
 						<a class="a__nav-filtro" href="../tienda/productos/otros.html">Otros</a>
 					</div>
-					<div class="row" data-pagination>
-						<ul id="paginationContentContainer" class="pagination-content">
-							<li>
-								<div class="col-md-4 paged-element">
-									<div class="wrapper">
-										<div class="product-card">
-											<a href="#" class="product-link">
-												<img src="../images/calcomanias/argentina/fideo-copa.jpg" />
-												<span class="overlay"></span>
-												<span class="info">
-													<P class="title">Ángel Di María levantando la
-														copa</P>
-													<span class="price"><span
-															class="woocommerce-Price-currencySymbol">$</span>270</span>
-												</span>
-											</a>
 
-											<div class="button-wrap">
 
-												<div class="input-group mb-2 product-quantity-selector">
-													<div class="input-group-div">
-														<div class="input-group-prepend minus">
-															<button class="btn--subtract-quantity" id="minus-btn">
-																<span class="span__menos">-</span>
-															</button>
+
+
+					<div class="container">
+						<div class="row">
+							<!-- search -->
+							<!-- <nav class="navbar navbar-light bg-light">
+                                <div class="container px-0 px-sm-3">
+                                    <div class="input-group">
+                                        <input class="form-control" type="search" placeholder="Buscar"
+                                            aria-label="Search" data-pagination-search=".card-body">
+                                        <div class="input-group-append clear-search">
+                                            <button class="btn btn-outline-secondary" type="button"
+                                                data-pagination-clear-search>Borrar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav> -->
+							<div class="pagination-example">
+
+								<!-- END: search -->
+
+								<div class="row" data-pagination>
+									<ul id="paginationContentContainer" class="pagination-content">
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															
+															<div class="input-group mb-2 product-quantity-selector">
+																<div class="input-group-div">
+																	<div class="input-group-prepend minus">
+																		<button class="btn--subtract-quantity"
+																			id="minus-btn">
+																			<span class="span__menos">-</span>
+																		</button>
+																	</div>
+																	<input type="number"
+																		name="lineItems[6dfcff51d86f467497a9afe7aa38cda8][quantity]"
+																		id="qty_input"
+																		class="product-detail-quantity"
+																		value="1" data-min-amount="1"
+																		data-max-amount="1500">
+																	<div class="input-group-prepend plus">
+																		<button class="btn--add-quantity"
+																			id="plus-btn">
+																			<span class="span__mas">+</span>
+																		</button>
+																	</div>
+																</div>
+															</div>
+															<a href="#" class="cart button">Add to cart</a>
 														</div>
-														<input type="number"
-															name="lineItems[6dfcff51d86f467497a9afe7aa38cda8][quantity]"
-															id="qty_input" class="product-detail-quantity" value="1"
-															data-min-amount="1" data-max-amount="1500">
-														<div class="input-group-prepend plus">
-															<button class="btn--add-quantity" id="plus-btn">
-																<span class="span__mas">+</span>
-															</button>
-														</div>
+
 													</div>
 												</div>
-												<a href="#" class="cart button">Add to cart</a>
 											</div>
+										</li>
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
 
-										</div>
-									</div>
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="col-md-4 paged-element">
+												<div class="wrapper">
+													<div class="product-card">
+														<a href="#" class="product-link">
+															<img src="/images/calcomanias/argentina/fideo-copa.jpg" />
+															<span class="overlay"></span>
+															<span class="info">
+																<P class="title">Ángel Di María levantando la
+																	copa</P>
+																<span class="price"><span
+																		class="woocommerce-Price-currencySymbol">$</span>270</span>
+															</span>
+														</a>
+
+														<div class="button-wrap">
+															<a href="#" class="cart button">Add to cart</a>
+															<input class="wish button" type="number" value="1" min="1">
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+
+									</ul>
+									<div id="paginationNavContainer"></div>
 								</div>
-							</li>
-						</ul>
+							</div>
+						</div>
 					</div>
 				</div>
+			</div>
+		</div>
 
 
 
