@@ -886,7 +886,14 @@ figure {
 .filter__productos .pagination-example {
   display: flex;
   flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
   width: 1000px;
+}
+.filter__productos .pagination-example .row {
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 .filter__productos .pagination-example .row .pagination-content li {
   margin: 0;
@@ -938,7 +945,8 @@ figure {
 .filter__productos .pagination-example .row #paginationNavContainer {
   display: flex;
   justify-content: flex-start;
-  margin-top: 0px;
+  margin: 0;
+  padding: 0;
   z-index: 0;
 }
 .filter__productos .pagination-example .row .paged-element {
