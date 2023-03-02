@@ -10,6 +10,8 @@ $padding-base-vertical: 14px !default;
 $brand-primary: #d1c286 !default;
 $brand-secondary: #a9974e !default;
 
+$precio: 250;
+
 $brand-white: #fff;
 $brand-black: #000;
 $brand-darker: #444;
@@ -913,6 +915,7 @@ figure {
 	text-align: center;
 
 	.counter {
+		font-family: 'Poppins', sans-serif;
 		font-size: 50px;
 		margin-bottom: 10px;
 		color: $brand-black;
@@ -1431,7 +1434,7 @@ figure {
 
 				.product-card:hover .button-wrap {
 					bottom: 25px;
-
+					
 				}
 
 				.product-card .button-wrap .button:hover {
@@ -1440,9 +1443,9 @@ figure {
 
 				.product-card .button-wrap .button.cart {
 					float: right;
+  					cursor: not-allowed;
 					border-radius: 5px !important;
 					margin-right: 2rem;
-
 				}
 
 				.product-card .button-wrap .button.wish {
