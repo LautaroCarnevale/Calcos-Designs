@@ -660,12 +660,13 @@ figure {
 
 .fh5co-cover {
 	height: 800px;
-	background-image: url(/images/91+4MVG+nzL._AC_SL1500_.jpg);
+	background-image: url(/images/productimg.jpg);
 	background-size: contain;
 	background-position: center center;
 	background-repeat: no-repeat;
 	float: left;
 	width: 100%;
+
 
 	.overlay {
 		z-index: 0;
@@ -1077,19 +1078,36 @@ figure {
 	}
 
 	.filters {
-		padding-top: 60px;
 		display: flex;
+		margin-top: 20px;
 		flex-direction: column;
-		margin-right: 50px;
+		margin-right: 100px;
+		padding: 150px;
+		
+
+		.texto__categorias-filter {
+			font-family: 'Open Sans', sans-serif;
+			margin-bottom: 30px;
+			font-size: 15px;
+		}
+		
 
 		.a__nav-filtro {
 			color: #000;
-			font-family: 'Inter', sans-serif;
+			font-family: 'Roboto', sans-serif;
+			font-weight: 500;
+			margin-bottom: 4px;
+			border-radius: 4px;
+			padding-left: 5px;
 		}
 
-		.texto__categorias-filter {
-			font-family: 'Inter', sans-serif;
+		.a__nav-filtro:hover {
+			color: #000;
+			background-color: #E6A30E;
 		}
+
+
+		
 
 	}
 
