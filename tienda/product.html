@@ -132,86 +132,70 @@
 
 				<div class="filter__productos">
 					<div class="filters">
-						<h3 class="texto__categorias-filter">Categorias</h3>
-						<a class="filter_link" href="#" data-filter="all">Todo</a>
-						<a  href="/tienda/productos/argentina.html">Argentina</a>
-						<a  href="/tienda/productos/deportes.html">Deportes</a>
-						<a  href="/tienda/productos/escudos.html">Escudos</a>
-						<a  href="/tienda/productos/bocajuniors.html">Boca Juniors</a>
-						<a  href="/tienda/productos/riverplate.html">River Plate</a>
-						<a  href="/tienda/productos/estadios.html">Estadios</a>
-						<a  href="/tienda/productos/camisetas.html">Camisetas</a>
-						<a  href="/tienda/productos/peliculasyseries.html">Peliculas y series</a>
-						<a  href="/tienda/productos/musica.html">Música</a>
-						<a  href="/tienda/productos/animales.html">Animales</a>
-						<a  href="/tienda/productos/lossimpson.html">Los Simpson</a>
-						<a  href="/tienda/productos/logos.html">Logos</a>
-						<a  href="/tienda/productos/zapatillas.html">Zapatillas</a>
-						<a  href="/tienda/productos/otros.html">Otros</a>
+						<h3 class="texto__categorias-filter">CATEGORÍAS</h3>
+						<a class="a__nav-filtro" href="#" data-filter="all">Todo</a>
+						<a class="a__nav-filtro" href="../tienda/productos/argentina.html">Argentina</a>
+						<a class="a__nav-filtro" href="../tienda/productos/deportes.html">Deportes</a>
+						<a class="a__nav-filtro" href="../tienda/productos/escudos.html">Escudos</a>
+						<a class="a__nav-filtro" href="../tienda/productos/bocajuniors.html">Boca Juniors</a>
+						<a class="a__nav-filtro" href="../tienda/productos/riverplate.html">River Plate</a>
+						<a class="a__nav-filtro" href="../tienda/productos/estadios.html">Estadios</a>
+						<a class="a__nav-filtro" href="../tienda/productos/camisetas.html">Camisetas</a>
+						<a class="a__nav-filtro" href="../tienda/productos/peliculasyseries.html">Peliculas y series</a>
+						<a class="a__nav-filtro" href="../tienda/productos/musica.html">Música</a>
+						<a class="a__nav-filtro" href="../tienda/productos/animales.html">Animales</a>
+						<a class="a__nav-filtro" href="../tienda/productos/lossimpson.html">Los Simpson</a>
+						<a class="a__nav-filtro" href="../tienda/productos/logos.html">Logos</a>
+						<a class="a__nav-filtro" href="../tienda/productos/zapatillas.html">Zapatillas</a>
+						<a class="a__nav-filtro" href="../tienda/productos/otros.html">Otros</a>
 					</div>
-
-
-
-
-					<div class="container">
-						<div class="row">
-							<div class="pagination-example">
+					<div class="row" data-pagination>
+						<ul id="paginationContentContainer" class="pagination-content">
+							<li>
 								<div class="col-md-4 paged-element">
-									<li class="cd-item argentina deportes">
-										<div class="product-img">
+									<div class="wrapper">
+										<div class="product-card">
+											<a href="#" class="product-link">
+												<img src="../images/calcomanias/argentina/fideo-copa.jpg" />
+												<span class="overlay"></span>
+												<span class="info">
+													<P class="title">Ángel Di María levantando la
+														copa</P>
+													<span class="price"><span
+															class="woocommerce-Price-currencySymbol">$</span>270</span>
+												</span>
+											</a>
 
-											<div class="flex">
-												<div class="img">
-													<img class="img-fluid"
-														src="/images/calcomanias/argentina/fideo-copa.jpg" alt="">
+											<div class="button-wrap">
+
+												<div class="input-group mb-2 product-quantity-selector">
+													<div class="input-group-div">
+														<div class="input-group-prepend minus">
+															<button class="btn--subtract-quantity" id="minus-btn">
+																<span class="span__menos">-</span>
+															</button>
+														</div>
+														<input type="number"
+															name="lineItems[6dfcff51d86f467497a9afe7aa38cda8][quantity]"
+															id="qty_input" class="product-detail-quantity" value="1"
+															data-min-amount="1" data-max-amount="1500">
+														<div class="input-group-prepend plus">
+															<button class="btn--add-quantity" id="plus-btn">
+																<span class="span__mas">+</span>
+															</button>
+														</div>
+													</div>
 												</div>
-												<div class="product-offer">Oferta</div>
+												<a href="#" class="cart button">Add to cart</a>
 											</div>
-											<div class="product-details">
-												<h3>Ángel Di María levantando la copa</h3>
-												<p class="price">$270</p>
-												<div class="cd-cart">
-													<input class="quantity" type="number" value="1" min="1">
-													<a href="#0" class="cd-add-to-cart">Añadir al carrito</a>
-												</div>
-											</div>
-									</li>
+
+										</div>
+									</div>
 								</div>
-								<div class="col-md-4 paged-element">
-
-								</div>
-								<div class="col-md-4 paged-element">
-
-								</div>
-								<div class="col-md-4 paged-element">
-
-								</div>
-								<div class="col-md-4 paged-element">
-
-								</div>
-								<div class="col-md-4 paged-element">
-
-								</div>
-								<div class="col-md-4 paged-element">
-
-								</div>
-								<div class="col-md-4 paged-element">
-
-								</div>
-								<div class="col-md-4 paged-element">
-
-								</div>
-
-								<div class="col-md-4 paged-element">
-
-								</div>
-								<div class="col-md-4 paged-element">
-
-								</div>
-
-							</div>
-						</div>
+							</li>
+						</ul>
 					</div>
+				</div>
 
 
 
@@ -232,7 +216,7 @@
 
 
 
-					<!-- <ul class="cd-items cd-container">
+				<!-- <ul class="cd-items cd-container">
 						
 
 						<li class="cd-item argentina deportes" ">
@@ -3902,9 +3886,9 @@
 							<div id="caption"></div>
 						</div>
 					</ul> -->
-				</div>
 			</div>
 		</div>
+	</div>
 
 
 
@@ -3939,7 +3923,7 @@
 
 
 
-		<!-- <div class="row">
+	<!-- <div class="row">
 					<div class="wrap">
 						<div class="store-wrapper">
 							<div class="category_list">
@@ -4046,7 +4030,7 @@
 					</div> -->
 
 
-		<!-- <div class="card" category="Argentina">
+	<!-- <div class="card" category="Argentina">
 									<div class="img-box">
 										<img src="/images/5-de-copas.jpg" alt="">
 									</div>
